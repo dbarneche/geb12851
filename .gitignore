@@ -1,0 +1,12 @@
+*.DS_Store
+*.Rhistory
+*.Rapp.history
+*.Rproj
+*.Rproj.user
+*.RData
+*.rda
+*.rds
+
+.remake/
+output/
+build.R

@@ -1,0 +1,133 @@
+realm,site_name_short,site_name,lat,lon,gasparRegion,gasparProvince,spaldingRegion,spaldingProvince,veron
+Caribbean,Bahamas,Bahamas,24.59166,-77.233205,Western Atlantic,caribbean,12. Tropical Northwestern Atlantic,63. Bahamian,Bahamas & Florida South 
+Caribbean,Bonaire.Island,Bonaire Island,12.193919,-68.655049,Western Atlantic,caribbean,12. Tropical Northwestern Atlantic,66. S o u t h e rn Caribbean,South Caribbean & Netherlands Antilles 
+Caribbean,Cuba,Cuba,21.737224,-80.339608,Western Atlantic,caribbean,12. Tropical Northwestern Atlantic,65. Greater Antilles,Cuba & Cayman Islands 
+Caribbean,Florida.Keys,Florida Keys,24.71152,-81.674968,Western Atlantic,caribbean,12. Tropical Northwestern Atlantic,70. Floridian,Bahamas & Florida South 
+Caribbean,Guadeloupe,Guadeloupe,16.194364,-61.454162,Western Atlantic,caribbean,12. Tropical Northwestern Atlantic,64. E a s t e rn Caribbean,"Hispaniola, Puerto Rico and Lesser Antilles "
+Caribbean,Martinique,Martinique,14.74018,-60.923424,Western Atlantic,caribbean,12. Tropical Northwestern Atlantic,64. E a s t e rn Caribbean,"Hispaniola, Puerto Rico and Lesser Antilles "
+Caribbean,Mexican.Caribbean,Mexican Caribbean,21.239347,-87.235775,Western Atlantic,caribbean,12. Tropical Northwestern Atlantic,69. S o u t h e rnGulf of Mexico,"Bay of Campeche, Yucatan "
+Caribbean,Navassa,Navassa,18.389828,-75.006419,Western Atlantic,caribbean,12. Tropical Northwestern Atlantic,65. Greater Antilles,Cuba & Cayman Islands 
+Caribbean,"Pelican.Cays,.Belize","Pelican Cays, Belize",16.427876,-88.217057,Western Atlantic,caribbean,12. Tropical Northwestern Atlantic,69. S o u t h e rnGulf of Mexico,Belize & West Caribbean 
+Caribbean,Saba...Netherland.Antilles,Saba - Netherland Antilles,17.434429,-63.322643,Western Atlantic,caribbean,12. Tropical Northwestern Atlantic,64. E a s t e rn Caribbean,"Hispaniola, Puerto Rico and Lesser Antilles "
+Caribbean,Venezuela.(Tobago),Venezuela (Tobago),10.534994,-61.334251,Western Atlantic,caribbean,12. Tropical Northwestern Atlantic,66. S o u t h e rn Caribbean,South Caribbean & Netherlands Antilles 
+Caribbean,Virgin.Islands,Virgin Islands,18.430224,-64.646748,Western Atlantic,caribbean,12. Tropical Northwestern Atlantic,65. Greater Antilles,Cuba & Cayman Islands 
+Central Indo-Pacific,Ambon.islands,Ambon islands,-3.599367,128.386728,Central I.P.,central_iwp,30. Western Coral Triangle,131. Banda Sea,Banda Sea and the Muluccas 
+Central Indo-Pacific,Andaman.Nicobar,Andaman-Nicobar,11.429107,92.97944,Central I.P.,central_iwp,24. Andaman,109. Andaman and Nicobar Islands,Nicobar Islands 
+Central Indo-Pacific,Bali,Bali,-8.522848,115.054868,Central I.P.,central_iwp,30. Western Coral Triangle,132. Lesser Sunda,Lesser Sunda Islands and the Savu Sea 
+Central Indo-Pacific,Birds.Head.Peninsula,Birds Head Peninsula,-2.294463,132.288592,Central I.P.,central_iwp,30. Western Coral Triangle,130. Papua,Cendrawasih Bay 
+Central Indo-Pacific,Bismark.Sea.&.Kimbey.Bay,Bismark Sea & Kimbey Bay,-4.01252,150.065027,Central I.P.,central_iwp,31. Eastern Coral Triangle,134. Bismarck Sea,Bismarck Sea 
+Central Indo-Pacific,China.Sea.all,China Sea all,16.293457,113.704985,Central I.P.,central_iwp,26. Sunda Shelf,117. Sunda Shelf/Java Sea,South China Sea 
+Central Indo-Pacific,Christmas.(Indian.O.),Christmas (Indian O.),-10.506202,105.639351,Central I.P.,central_iwp,27. Java Transitional,120. Cocos- Keeling/Christmas Island,Christmas Island 
+Central Indo-Pacific,Chuck,Chuck,7.321871,151.903654,Central I.P.,central_iwp,29. Tropical Northwestern Pacific,124. East Caroline Islands,Caroline Islands (Central FSM) 
+Central Indo-Pacific,Cocos.Keeling,Cocos-Keeling,-12.154652,96.871555,Central I.P.,central_iwp,27. Java Transitional,120. Cocos- Keeling/Christmas Island,Cocos Keeling (Indian Ocean) 
+Central Indo-Pacific,Dampier,Dampier,-20.463005,116.726481,Central I.P.,central_iwp,34. N o rthwest Australian Shelf,144. Exmouth to Broome,Kimberley Coast 
+Central Indo-Pacific,Flores,Flores,-8.472993,122.352092,Central I.P.,central_iwp,30. Western Coral Triangle,132. Lesser Sunda,Lesser Sunda Islands and the Savu Sea 
+Central Indo-Pacific,GBR.North,GBR-North,-14.489588,145.219198,Central I.P.,central_iwp,33. N o rtheast Australian Shelf,142. Torres Strait Nort h e rn Great Barrier Reef,Central & North GBR 
+Central Indo-Pacific,Gulf.of.Carpentaria,Gulf of Carpentaria,-15.037648,139.112569,Central I.P.,central_iwp,32. Sahul Shelf,140. A rnhem Coast to Gulf of Carp e n t e r i a,Darwin 
+Central Indo-Pacific,Gulf.of.Thailand.(Pacific),Gulf of Thailand (Pacific),10.702643,101.489414,Central I.P.,central_iwp,26. Sunda Shelf,115. Gulf of Thailand,Andaman Sea 
+Central Indo-Pacific,Halmahera.island.group,Halmahera island group,0.44054,127.982555,Central I.P.,central_iwp,30. Western Coral Triangle,129. Halmahera,"Raja Ampat, Bird's Head Peninsula "
+Central Indo-Pacific,Hon.Kong.and.around,Hon Kong and around,21.531545,114.851232,Central I.P.,central_iwp,25. South China Sea,113. S o u t h e rn China,Hong Kong 
+Central Indo-Pacific,Irian.Jaya..East.Indonesia,Irian Jaya- East Indonesia,-6.327464,136.977491,Central I.P.,central_iwp,32. Sahul Shelf,139. Arafura Sea,"Raja Ampat, Bird's Head Peninsula "
+Central Indo-Pacific,Java,Java,-6.847216,111.17629,Central I.P.,central_iwp,26. Sunda Shelf,118. Malacca Strait,Java 
+Central Indo-Pacific,Kalimantan.(Borneo),Kalimantan (Borneo),-0.825152,114.181564,Central I.P.,central_iwp,26. Sunda Shelf,117. Sunda Shelf/Java Sea,South China Sea 
+Central Indo-Pacific,Komodo,Komodo,-8.61149,119.465963,Central I.P.,central_iwp,30. Western Coral Triangle,132. Lesser Sunda,Lesser Sunda Islands and the Savu Sea 
+Central Indo-Pacific,Malay.Peninsula.(Pacific),Malay Peninsula (Pacific),2.120702,104.129153,Central I.P.,central_iwp,26. Sunda Shelf,117. Sunda Shelf/Java Sea,West Sumatra 
+Central Indo-Pacific,Milne.Bay,Milne Bay,-10.698161,151.706538,Central I.P.,central_iwp,31. Eastern Coral Triangle,136. Solomon Sea,Milne Bay 
+Central Indo-Pacific,North.Sumatra,North Sumatra,3.375539,98.239368,Central I.P.,central_iwp,26. Sunda Shelf,118. Malacca Strait,West Sumatra 
+Central Indo-Pacific,Pescadores,Pescadores,23.432738,119.587392,Central I.P.,central_iwp,9. Warm Temperate Northwest Pacific,52. East China Sea,Taiwan 
+Central Indo-Pacific,Philippines.all,Philippines all,11.374778,122.990267,Central I.P.,central_iwp,30. Western Coral Triangle,127. Eastern Philippines,Southeast Philippines 
+Central Indo-Pacific,Raja.Ampat,Raja Ampat,-0.275394,130.420713,Central I.P.,central_iwp,30. Western Coral Triangle,129. Halmahera,SW coast of Papua 
+Central Indo-Pacific,Solomon.islands,Solomon islands,-8.206913,158.729101,Central I.P.,central_iwp,31. Eastern Coral Triangle,135. Solomon Archipelago,Solomon Islands & Bougainville 
+Central Indo-Pacific,Sulawesi,Sulawesi,-2.916424,121.529285,Central I.P.,central_iwp,30. Western Coral Triangle,133. Northeast Sulawesi,Banda Sea and the Muluccas 
+Central Indo-Pacific,Sumatra.all,Sumatra-all,0.155655,101.392406,Central I.P.,central_iwp,26. Sunda Shelf,118. Malacca Strait,Strait of Malacca & Selat Karimata 
+Central Indo-Pacific,Taiwan.(main.island),Taiwan (main island),24.147679,120.951121,Central I.P.,central_iwp,9. Warm Temperate Northwest Pacific,52. East China Sea,Taiwan 
+Central Indo-Pacific,Thailand.Indian.coast,Thailand-Indian coast,7.305485,98.697033,Central I.P.,central_iwp,24. Andaman,110. Andaman Sea Coral Coast,Andaman Sea 
+Central Indo-Pacific,Timor.Tanimba,Timor-Tanimba,-9.383624,125.109502,Central I.P.,central_iwp,30. Western Coral Triangle,132. Lesser Sunda,North Arafura Sea islands 
+Central Indo-Pacific,Vietnam,Vietnam,14.737313,107.480464,Central I.P.,central_iwp,26. Sunda Shelf,116. S o u t h e rn Vietnam,Central Vietnam 
+Central Indo-Pacific,WA.north.of.Shark.Bay,WA north of Shark Bay,-23.435199,113.424822,Central I.P.,central_iwp,34. N o rthwest Australian Shelf,145. Ningaloo,Ningaloo Reef & NW Western Australia 
+Central Indo-Pacific,WA.offshore.reefs,WA offshore reefs,-12.214819,123.727933,Central I.P.,central_iwp,30. Western Coral Triangle,132. Lesser Sunda,Ashmore Reef 
+Central Indo-Pacific,WA.Rowley.shoals,WA Rowley shoals,-17.402565,119.219662,Central I.P.,central_iwp,34. N o rthwest Australian Shelf,144. Exmouth to Broome,Rowley Shoals 
+Central Indo-Pacific,WA.Scott.Reef,WA Scott Reef,-13.931984,121.905198,Central I.P.,central_iwp,32. Sahul Shelf,141. Bonaparte Coast,Scott Reef 
+Central Indo-Pacific,Yaeyama.(Ryukyu),Yaeyama (Ryukyu),24.623989,124.679128,Central I.P.,central_iwp,28. South Kuroshio,121. South Kuroshio,Taiwan 
+Central Pacific,Baker.&.Howland,Baker & Howland,0.411524,-176.524819,Central Pacific,central_pacific,39. Central Po l y n e s i a,156. Phoenix/ Tokelau/ Nort h e rn Cook Islands,Line Islands - South (SE Kiribati) 
+Central Pacific,Fiji,Fiji,-17.250672,178.341042,Central Pacific,central_pacific,35. Tropical Southwestern Pacific,147. Fiji Islands,Fiji 
+Central Pacific,Ifaluk.and.around,Ifaluk and around,7.902329,145.154046,Central Pacific,central_pacific,29. Tropical Northwestern Pacific,124. East Caroline Islands,Caroline Islands (Central FSM) 
+Central Pacific,Kapingamangari,Kapingamangari,0.990473,154.773095,Central Pacific,central_pacific,31. Eastern Coral Triangle,135. Solomon Archipelago,Caroline Islands (Central FSM) 
+Central Pacific,Kosrae,Kosrae,5.322396,162.998748,Central Pacific,central_pacific,29. Tropical Northwestern Pacific,124. East Caroline Islands,Pohnpei and Kosrae (East FSM) 
+Central Pacific,Line.islands,Line islands,3.524321,-159.195413,Central Pacific,central_pacific,39. Central Po l y n e s i a,155. Line Islands,Line Islands - North (NE Kiribati) 
+Central Pacific,Mariana.North,Mariana North,17.723931,145.712363,Central Pacific,central_pacific,29. Tropical Northwestern Pacific,123. Mariana Islands,Guam & the Marianas 
+Central Pacific,Mariana.South,Mariana South,14.068182,145.124571,Central Pacific,central_pacific,29. Tropical Northwestern Pacific,123. Mariana Islands,Guam & the Marianas 
+Central Pacific,Marshall.islands,Marshall islands,9.122088,168.294995,Central Pacific,central_pacific,"38. Marshall, Gilbert, and Ellis Islands",153. M a rshall Islands,Marshall Islands 
+Central Pacific,Niue,Niue,-19.053006,-169.887199,Central Pacific,central_pacific,35. Tropical Southwestern Pacific,146. Tonga Islands,"Tuvalu, Samoa, Tonga "
+Central Pacific,Palau,Palau,7.621375,134.500241,Central Pacific,central_pacific,30. Western Coral Triangle,126. Palawan/ North Borneo,Palau 
+Central Pacific,Phoenix,Phoenix,-3.551991,-171.709499,Central Pacific,central_pacific,39. Central Po l y n e s i a,156. Phoenix/ Tokelau/ Nort h e rn Cook Islands,Phoenix Islands (Kiribati Centre) 
+Central Pacific,Pohnpei,Pohnpei,6.84659,158.149036,Central Pacific,central_pacific,29. Tropical Northwestern Pacific,124. East Caroline Islands,Pohnpei and Kosrae (East FSM) 
+Central Pacific,Rotuma.island,Rotuma island,-12.50145,177.062472,Central Pacific,central_pacific,"38. Marshall, Gilbert, and Ellis Islands",154. Gilbert/Ellis Island,Fiji 
+Central Pacific,Samoa,Samoa,-13.877556,-171.720956,Central Pacific,central_pacific,39. Central Po l y n e s i a,157. Samoa Islands,"Tuvalu, Samoa, Tonga "
+Central Pacific,Tonga,Tonga,-20.034508,-174.622354,Central Pacific,central_pacific,35. Tropical Southwestern Pacific,146. Tonga Islands,"Tuvalu, Samoa, Tonga "
+Central Pacific,Tuvalu.Gilbert,Tuvalu-Gilbert,-7.895888,178.417925,Central Pacific,central_pacific,"38. Marshall, Gilbert, and Ellis Islands",154. Gilbert/Ellis Island,Gilbert Islands (Kiribati West) 
+Central Pacific,Vanuatu,Vanuatu,-16.275453,167.949552,Central Pacific,central_pacific,35. Tropical Southwestern Pacific,148. Vanuatu,Vanuatu 
+Central Pacific,Wake,Wake,19.319335,166.629521,Central Pacific,central_pacific,29. Tropical Northwestern Pacific,123. Mariana Islands,NOT IN VERON
+Central Pacific,Wallis.island,Wallis island,-13.285958,-176.181132,Central Pacific,central_pacific,39. Central Po l y n e s i a,157. Samoa Islands,"Tuvalu, Samoa, Tonga "
+Central Pacific,Yap,Yap,9.508304,138.118898,Central Pacific,central_pacific,30. Western Coral Triangle,126. Palawan/ North Borneo,Yap Islands 
+Continental TEP,Colombia,Colombia,3.785646,-77.851139,TEP,continental_tep,43. Tropical East Pacific,170. Panama Bight,"Colombia, Ecuador Pacific Coast "
+Continental TEP,Costa.Rica,Costa Rica,9.601921,-84.761369,TEP,continental_tep,43. Tropical East Pacific,168. Nicoya,"Costa Rica, Panama Pacific coast "
+Continental TEP,Equador,Ecuador,-1.292014,-80.451157,TEP,continental_tep,43. Tropical East Pacific,171. Guayaquil,"Colombia, Ecuador Pacific Coast "
+Continental TEP,Gorgona,Gorgona,2.968533,-78.173011,TEP,continental_tep,43. Tropical East Pacific,170. Panama Bight,"Colombia, Ecuador Pacific Coast "
+Continental TEP,Guatemala,Guatemala,13.823887,-91.367041,TEP,continental_tep,43. Tropical East Pacific,167. Chiapas– Nicaragua,"Costa Rica, Panama Pacific coast "
+Continental TEP,Honduras,Honduras,12.742843,-87.801712,TEP,continental_tep,43. Tropical East Pacific,167. Chiapas– Nicaragua,"Costa Rica, Panama Pacific coast "
+Continental TEP,Isla.la.Plata,Isla la Plata,-1.270624,-81.06194,TEP,continental_tep,43. Tropical East Pacific,171. Guayaquil,"Colombia, Ecuador Pacific Coast "
+Continental TEP,Panama,Panama,8.013655,-80.08066,TEP,continental_tep,43. Tropical East Pacific,170. Panama Bight,"Costa Rica, Panama Pacific coast "
+Continental TEP,Salvador,Salvador,13.073178,-89.158981,TEP,continental_tep,43. Tropical East Pacific,167. Chiapas– Nicaragua,"Costa Rica, Panama Pacific coast "
+Continental TEP,Sinaloa,Sinaloan,23.787418,-107.23375,TEP,continental_tep,11. Warm Temperate Northeast Pacific,60. Cortezian,Mexico Pacific Coast & Revillagigedo Islands 
+Continental TEP,TEP.Nicaragua,TEP.Nicaragua,11.676713,-86.837347,TEP,continental_tep,43. Tropical East Pacific,167. Chiapas– Nicaragua,"Costa Rica, Panama Pacific coast "
+Continental TEP,Tresmarias,Tresmarias,21.581518,-105.81076,TEP,continental_tep,43. Tropical East Pacific,166. Mexican Tropical Pacific,Baja California – South 
+Easter,Easter.island,Easter island,-27.129,-109.344159,Central Pacific,easter,42. Easter Island,163. Easter Island,Easter island 
+Easter,Sala.y.Gomez,Sala y Gomez,-26.471633,-105.362772,Central Pacific,easter,42. Easter Island,163. Easter Island,Easter island 
+Eastern Atlantic,Cabo.Verde,Cabo Verde,15.633885,-23.25624,Eastern Atlantic,eastern_atlantic,16. West African Transition,79. Cape Verde,Cape Verde 
+Eastern Atlantic,Sao.Tome,Sao Tome,0.190507,6.61485,Eastern Atlantic,eastern_atlantic,17. Gulf of Guinea,84. Gulf of Guinea Islands,Gulf of Guinea to Sierra Leone 
+Hawaii,Hawaii.main,Hawaii-main,21.117239,-157.62638,Central Pacific,hawaiian,37. Hawaii,152. Hawaii,Hawaii East (Greater Islands) 
+North-western Indian,Aqaba.Gulf,Aqaba Gulf,28.843951,34.725451,Western Indian,nw_indian,18. Red Sea and Gulf of A d e n,87. Nort h e rn and Central Red Sea,North & central Red Sea 
+North-western Indian,Erythrea.Djibouti,Erythrea-Djibouti,15.424998,40.590902,Western Indian,nw_indian,18. Red Sea and Gulf of A d e n,88. S o u t h e rnRed Sea,South Red Sea 
+North-western Indian,Red.Sea.Total,Red Sea Total,19.367875,39.219183,Western Indian,nw_indian,18. Red Sea and Gulf of A d e n,#N/A,NOT IN VERON
+Polynesia,Australes.Islands,Australes Islands,-23.371203,-149.166008,Central Pacific,polynesian,40. Southeast Polynesia,160. S o u t h e rn Cook/Austral Islands,Austral Islands 
+Polynesia,Cook.islands,Cook islands,-19.875123,-159.833713,Central Pacific,polynesian,40. Southeast Polynesia,160. S o u t h e rn Cook/Austral Islands,Cook Islands 
+Polynesia,Gambier,Gambier,-23.166516,-134.917014,Central Pacific,polynesian,40. Southeast Polynesia,158. Tuamotus,Pitcairn - Tuamoto SE 
+Polynesia,Marquesas,Marquesas,-9.379439,-139.522981,Central Pacific,polynesian,41. Marquesas,162. Marquesas,Marquesas Islands 
+Polynesia,Pitcairn.&.Dulcie,Pitcairn & Dulcie,-24.454946,-127.36798,Central Pacific,polynesian,40. Southeast Polynesia,159. Rapa- Pitcairn,Pitcairn - Tuamoto SE 
+Polynesia,Rapa.island,Rapa island,-27.607751,-144.340118,Central Pacific,polynesian,40. Southeast Polynesia,159. Rapa- Pitcairn,Austral Islands 
+Polynesia,Society.islands,Society islands,-16.995883,-151.208479,Central Pacific,polynesian,40. Southeast Polynesia,161. Society Islands,Society Islands 
+Polynesia,Tuamotu.islands,Tuamotu islands,-16.289641,-144.571515,Central Pacific,polynesian,40. Southeast Polynesia,158. Tuamotus,Tuamotu Archipelago West 
+South-western Atlantic,Abrolhos,Abrolhos,-17.784208,-38.888932,Western Atlantic,sw_atlantic,14. Tropical Southwestern Atlantic,76. E a s t e rn Brazil,Brazil 
+South-western Atlantic,Arraial.do.Cabo,Arraial do Cabo,-22.960203,-41.582905,Western Atlantic,sw_atlantic,14. Tropical Southwestern Atlantic,76. E a s t e rn Brazil,Brazil 
+South-western Atlantic,Atol.Rocas,Atol Rocas,-3.871314,-33.801191,Western Atlantic,offshore_sw_atlantic,14. Tropical Southwestern Atlantic,74. Fe rnando de Naronha and Atoll das Rocas,Brazil 
+South-western Atlantic,Espirito.Santo,Espirito Santo,-20.448854,-40.048265,Western Atlantic,sw_atlantic,14. Tropical Southwestern Atlantic,76. E a s t e rn Brazil,Brazil 
+South-western Atlantic,F.Noronha,F Noronha,-3.85357,-32.405443,Western Atlantic,offshore_sw_atlantic,14. Tropical Southwestern Atlantic,74. Fe rnando de Naronha and Atoll das Rocas,Brazil 
+South-western Atlantic,Hump.Brazil,Hump Brazil,-5.945653,-36.749257,Western Atlantic,sw_atlantic,14. Tropical Southwestern Atlantic,75. Nort h e a s t e rn Brazil,Brazil 
+South-western Atlantic,Ilha.Grande,Ilha Grande,-23.472862,-43.6058,Western Atlantic,sw_atlantic,14. Tropical Southwestern Atlantic,76. E a s t e rn Brazil,Brazil 
+South-western Atlantic,Manuel.Luiz,Manuel Luiz,-0.868933,-44.273453,Western Atlantic,sw_atlantic,13. N o rth Brazil Shelf,72. Amazonia,Brazil 
+South-western Atlantic,N.Bahia,N Bahia,-12.905188,-38.297947,Western Atlantic,sw_atlantic,14. Tropical Southwestern Atlantic,75. Nort h e a s t e rn Brazil,Brazil 
+South-western Atlantic,Santa.Catarina,Santa Catarina,-27.599737,-47.964096,Western Atlantic,sw_atlantic,47. Warm Temperate Southwestern Atlantic,180. Southeastern Brazil,Brazil 
+South-western Atlantic,Sao.Paolo,Sao Paulo,-24.977275,-46.329142,Western Atlantic,sw_atlantic,47. Warm Temperate Southwestern Atlantic,180. Southeastern Brazil,Brazil 
+South-western Atlantic,St.Pauls.Rocks,St Pauls Rocks,0.863573,-29.381577,Western Atlantic,offshore_sw_atlantic,14. Tropical Southwestern Atlantic,73. Sao Pedro and Sao Paulo Islands,Brazil 
+South-western Atlantic,Trindade,Trindade,-20.545265,-29.19413,Western Atlantic,offshore_sw_atlantic,14. Tropical Southwestern Atlantic,77. Trindade and Martin Vaz Islands,Brazil 
+South-western Atlantic,Zumbi,Zumbi,-8.712755,-34.966381,Western Atlantic,sw_atlantic,14. Tropical Southwestern Atlantic,75. Nort h e a s t e rn Brazil,Brazil 
+South-western Pacific,GBR.South,Capricorn Bunker,-21.846046,151.240952,Central Pacific,sw_pacific,55. East Central Australian Shelf,202. Tweed- Moreton,Central GBR islands and Southern GBR 
+South-western Pacific,Chesterfield,Chesterfield,-20.385932,158.837272,Central Pacific,sw_pacific,35. Tropical Southwestern Pacific,150. Coral Sea,Coral Sea 
+South-western Pacific,Kermadec,Kermadec,-29.26778,-177.935664,Central Pacific,sw_pacific,53. Northern New Zealand,195. Ke rmadec Island,Kermedec Islands 
+South-western Pacific,Lord.Howe,Lord Howe,-31.616943,159.14115,Central Pacific,sw_pacific,36. Lord Howe and Norfolk Islands,151. Lord Howe and Norfolk Islands,Lord Howe Island 
+South-western Pacific,Loyalty.islands,Loyalty islands,-20.80298,166.933618,Central Pacific,sw_pacific,35. Tropical Southwestern Pacific,149. New Caledonia,New Caledonia 
+South-western Pacific,Middleton.Elizabeth,Middleton-Elizabeth,-29.730024,159.096977,Central Pacific,sw_pacific,36. Lord Howe and Norfolk Islands,151. Lord Howe and Norfolk Islands,Elizabeth & Middleton Reefs 
+South-western Pacific,New.Caledonia...Main.island,New Caledonia - Main island,-20.630522,164.88476,Central Pacific,sw_pacific,35. Tropical Southwestern Pacific,149. New Caledonia,New Caledonia 
+South-western Pacific,Norfolk,Norfolk,-29.05248,167.956666,Central Pacific,sw_pacific,36. Lord Howe and Norfolk Islands,151. Lord Howe and Norfolk Islands,Elizabeth & Middleton Reefs 
+TEP islands,Clipperton,Clipperton,10.298051,-109.218277,TEP,offshore_tep,43. Tropical East Pacific,165. Clipperton,Clipperton Atoll 
+TEP islands,Cocos.TEP,Cocos-TEP,5.530041,-87.054767,TEP,offshore_tep,43. Tropical East Pacific,169. Cocos Islands,Isla del Coco 
+TEP islands,Galapagos,Galapagos,-0.625415,-90.583904,TEP,offshore_tep,44. Galapagos,172. Nort h e rn Galapagos Islands,Galapagos Islands 
+TEP islands,Malpelo,Malpelo,3.995006,-81.607617,TEP,offshore_tep,43. Tropical East Pacific,169. Cocos Islands,Isla de Malpelo 
+TEP islands,Revillagegidos,Revillagigedos,18.770007,-111.605843,TEP,offshore_tep,43. Tropical East Pacific,164. Revillagigedos,Mexico Pacific Coast & Revillagigedo Islands 
+Western Indian,Aldabra,Aldabra,-9.424537,46.355643,Western Indian,western_indian,20. Western Indian Ocean,96. Seychelles,Aldabra & the Seychelles 
+Western Indian,Comores.Mayotte.and.around,Comores-Mayotte and around,-12.369708,44.293231,Western Indian,western_indian,20. Western Indian Ocean,100. We s t e rn and Northern Madagascar,Mayote & the Comoro Islands 
+Western Indian,Kenya,Kenya,-2.85717,40.571637,Western Indian,western_indian,20. Western Indian Ocean,94. Nort h e rn Monsoon Current Coast,Kenya & Tanzania coast 
+Western Indian,Mozambique,Mozambique,-19.714512,36.557169,Western Indian,western_indian,20. Western Indian Ocean,101. Bight of Sofala/Swamp Coast,North Mozambique coast 
+Western Indian,Seychelles.Amirantes,Seychelles-Amirantes,-4.339195,55.704407,Western Indian,western_indian,20. Western Indian Ocean,96. Seychelles,Aldabra & the Seychelles 
+Western Indian,Tanzania,Tanzania,-7.00941,39.459304,Western Indian,western_indian,20. Western Indian Ocean,95. East African Coral Coast,Kenya & Tanzania coast 

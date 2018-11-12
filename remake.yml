@@ -1,0 +1,198 @@
+packages:
+  - rstan
+  - parallel
+  - plyr
+  - iNEXT
+  - brms
+  - ape
+  - vegan
+  - LoLinR
+  - extrafont
+  - fontcm
+  - tools
+  - mapproj
+  - maps
+  - Hmisc
+
+sources:
+  - R/analyses.R
+  - R/figures.R
+  - R/tables.R
+
+targets:
+  all:
+    depends:
+      - spatialAutoCorrelation
+      - docStats
+      - tableA1
+      - tableA2
+      - tableA3
+      - tableA4
+      - tableA5
+      - tableA6
+      - tableS1
+      - tableS2
+      - output/figures/fig1.pdf
+      - output/figures/fig2.pdf
+      - output/figures/fig3.pdf
+      - output/figures/fig4.pdf
+      - output/figures/fig5.pdf
+      - output/figures/figS1.pdf
+      - output/figures/figS2.pdf
+      - output/figures/figS3.pdf
+      - output/figures/figS4.pdf
+
+  # Data ----------------------------------------------------
+  regionsInfo:
+    command: readFile('data/paper_regions_match.csv')
+
+  figClist:
+    command: readFile('data/checklist.csv')
+
+  colorScheme:
+    command: readFile('data/colorScheme.csv')
+
+  data:
+    command: readFile('data/data.csv')
+
+  dataNoSmall:
+    command: removeSmallestSizeClass(data)
+
+  dataQuantClass:
+    command: keepQuantClassData(data)
+
+  avSst:
+    command: readFile('data/avSst.csv')
+
+  humanPop:
+    command: readFile('data/humanPopulation.csv')
+
+  geogrVar:
+    command: readFile('data/geogrVar.csv')
+
+  # Analyses ------------------------------------------------
+  # coverage-based rarefaction
+  coverageRarefactionAllDataList:
+    command: extractCoverageRarefactionAllDataList(data, I('incidence_freq'))
+
+  coverageRarefactionAllDataListNoSmall:
+    command: extractCoverageRarefactionAllDataList(dataNoSmall, I('incidence_freq'))
+
+  coverageRarefactionQuantClassDataList:
+    command: extractCoverageRarefactionAllDataList(dataQuantClass, I('incidence_freq'))
+
+  # hierarchical models -- all data
+  sitesFitAll:
+    command: stanFitSites(coverageRarefactionAllDataList, data, humanPop, geogrVar, avSst, I('modalSizeAllMaxSize'))
+
+  localitiesFitAll:
+    command: stanFitLocalities(coverageRarefactionAllDataList, data, humanPop, geogrVar, avSst, I('modalSizeAllMaxSize'))
+
+  regionsFitAll:
+    command: stanFitRegions(coverageRarefactionAllDataList, data, geogrVar, avSst, I('modalSizeAllMaxSize'))
+
+  # spatial autocorrelation test
+  spatialAutoCorrelation:
+    command: moransTest(data, sitesFitAll)
+
+  # hierarchical models -- removing smallest size class
+  sitesFitAllNoSmall:
+    command: stanFitSites(coverageRarefactionAllDataListNoSmall, data, humanPop, geogrVar, avSst, I('modalSizeAllMaxSize'))
+
+  localitiesFitAllNoSmall:
+    command: stanFitLocalities(coverageRarefactionAllDataListNoSmall, data, humanPop, geogrVar, avSst, I('modalSizeAllMaxSize'))
+
+  regionsFitAllNoSmall:
+    command: stanFitRegions(coverageRarefactionAllDataListNoSmall, data, geogrVar, avSst, I('modalSizeAllMaxSize'))
+
+  # hierarchical models -- using quant class data only
+  sitesFitAllQuantClass:
+    command: stanFitSites(coverageRarefactionQuantClassDataList, dataQuantClass, humanPop, geogrVar, avSst, I('modalSizeQuantClass'))
+
+  localitiesFitAllQuantClass:
+    command: stanFitLocalities(coverageRarefactionQuantClassDataList, dataQuantClass, humanPop, geogrVar, avSst, I('modalSizeQuantClass'))
+
+  regionsFitAllQuantClass:
+    command: stanFitRegions(coverageRarefactionQuantClassDataList, dataQuantClass, geogrVar, avSst, I('modalSizeQuantClass'))
+
+  # model with sampling area as a covariate 
+  sitesFitAllWithSampArea:
+    command: stanFitSitesWithSampArea(coverageRarefactionAllDataList, data, humanPop, geogrVar, avSst, I('modalSizeAllMaxSize'))  
+
+  # model at the site scale separately for Atlantic+Americas and Pacific
+  sitesFitAtl:
+    command: stanFitSitesPerOcean(coverageRarefactionAllDataList, data, humanPop, geogrVar, avSst, sizeFun = I('modalSizeAllMaxSize'), ocean = I('atlantic'))
+
+  sitesFitPac:
+    command: stanFitSitesPerOcean(coverageRarefactionAllDataList, data, humanPop, geogrVar, avSst, sizeFun = I('modalSizeAllMaxSize'), ocean = I('pacific'))
+
+  # data for packing correlation
+  posteriorPacking:
+    command: packingRegionRegression(data, regionsFitAll)
+
+  posteriorPackingNoSmall:
+    command: packingRegionRegression(dataNoSmall, regionsFitAllNoSmall)
+
+  # stats for figures only
+  regionSampleBasedRarefaction:
+    command: runRegionSampleBasedRarefaction(data)
+
+  coverageRarefactionAllDataListSize:
+    command: extractCoverageRarefactionAllDataListSizeClass(data, dataTypeFunction = I('incidence_freq'))
+
+  # Paper stats ---------------------------------------------
+  docStats:
+     command: calcDocStats(data, figClist, sitesFitAll, localitiesFitAll, regionsFitAll, sitesFitAllNoSmall, localitiesFitAllNoSmall, regionsFitAllNoSmall)
+
+  # Figures -------------------------------------------------
+  output/figures/fig1.pdf:
+    command: makeFigure1(dest = target_name, figClist, regionsInfo, coverageRarefactionAllDataList, data, colorScheme)
+
+  output/figures/fig2.pdf:
+    command: makeFigure2(dest = target_name, sitesFitAll, localitiesFitAll, regionsFitAll, colorScheme = colorScheme)
+
+  output/figures/fig3.pdf:
+    command: makeFigure3(dest = target_name, data, coverageRarefactionAllDataListSize, scale = I('sites'), colorScheme)
+
+  output/figures/fig4.pdf:
+    command: makeFigure4(dest = target_name, data, regionSampleBasedRarefaction, figClist, posteriorPacking, regionsFitAll, colorScheme)
+
+  output/figures/fig5.pdf:
+    command: makeFigure5(dest = target_name, data, regionsFitAll, colorScheme)
+
+  output/figures/figS1.pdf:
+    command: makeFigureS1(dest = target_name, sitesFitAll, localitiesFitAll, regionsFitAll, colorScheme = colorScheme)
+
+  output/figures/figS2.pdf:
+    command: makeFigureS2(dest = target_name, data, posteriorPacking, colorScheme)
+
+  output/figures/figS3.pdf:
+    command: makeFigure3(dest = target_name, data, coverageRarefactionAllDataListSize, scale = I('locality'), colorScheme)
+
+  output/figures/figS4.pdf:
+    command: makeFigureS4(dest = target_name, data, colorScheme)
+
+  # Tables --------------------------------------------------
+  tableA1:
+    command: makeTableA1(sitesFitAll)
+
+  tableA2:
+    command: makeTableA23(sitesFitAllNoSmall, localitiesFitAllNoSmall, regionsFitAllNoSmall)
+
+  tableA3:
+    command: makeTableA23(sitesFitAllQuantClass, localitiesFitAllQuantClass, regionsFitAllQuantClass)
+
+  tableA4:
+    command: makeTableA4(sitesFitAllWithSampArea)
+
+  tableA5:
+    command: makeTableA5(regionsFitAll)
+
+  tableA6:
+    command: makeTableA6(sitesFitAtl, sitesFitPac)
+
+  tableS1:
+    command: makeTableS1(data)
+
+  tableS2:
+    command: makeTableS2(figClist)
