@@ -4,6 +4,8 @@ This repository contains code and data needed to reproduce the article:
 
 **Barneche DR, Rezende EL, Parravicini V, Maire E, Edgar GJ, Stuart-Smith RD, Arias-González JE, Ferreira CEL, Friedlander AM, Green AL, Luiz OJ, Rodríguez-Zaragoza FA, Vigliola L, Kulbicki M, Floeter SR**, Body size, reef area, and temperature predict global reef-fish species richness across spatial scales. *Global Ecology and Biogeography*. 10.1111/geb.12851
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1484591.svg)](https://doi.org/10.5281/zenodo.1484591)
+
 ## Instructions
 
 All analyses were done in `R`. To compile the figures, analyses and tables we use the [remake](https://github.com/richfitz/remake) package for R. The `remake` package depends on `storr`, so install it first like this:
