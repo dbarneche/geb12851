@@ -96,4 +96,4 @@ loaded via a namespace (and not attached):
 * on the project main page on GitHub, click on the green button `clone or download` and then click on `Download ZIP`  
 
 ## Bug reporting
-* Please [report any issues or bugs](https://github.com/dbarneche/speciespackinggeb/issues).
+* Please [report any issues or bugs](https://github.com/dbarneche/geb12851/issues).
